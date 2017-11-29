@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/gasandbox/!svn/ver/628/ga_sandbox/qhull-2003.1/eg
+END
+q_test
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/gasandbox/!svn/ver/348/ga_sandbox/qhull-2003.1/eg/q_test
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gasandbox/!svn/ver/607/ga_sandbox/qhull-2003.1/eg/Makefile.in
+END
+q_test.bat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/gasandbox/!svn/ver/348/ga_sandbox/qhull-2003.1/eg/q_test.bat
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/gasandbox/!svn/ver/348/ga_sandbox/qhull-2003.1/eg/Makefile.am
+END
+q_eg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/gasandbox/!svn/ver/348/ga_sandbox/qhull-2003.1/eg/q_eg
+END
+q_egtest
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gasandbox/!svn/ver/348/ga_sandbox/qhull-2003.1/eg/q_egtest
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/gasandbox/!svn/ver/628/ga_sandbox/qhull-2003.1/eg/Makefile
+END
+Qhull-go.bat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/gasandbox/!svn/ver/348/ga_sandbox/qhull-2003.1/eg/Qhull-go.bat
+END

@@ -1,0 +1,49 @@
+Several libraries are required to build all examples. 
+Most examples require only GLUT.
+Under Linux, if you install libraries using a package manager,
+be sure to also install the development (dev) packages.
+E.g., antlr-dev, opencv-dev.
+
+For Windows/Visual Studio 2005 / 2008 only:
+Since version 1.0.4 there is the option to download compiled versions
+of the libraries for 32 bit and 64 bit windows. You may get the 
+appropriate package from Sourceforge:
+http://sourceforge.net/project/showfiles.php?group_id=170519
+and extract them to the same location as the source code
+
+
+The required libraries are:
+(with the version we used for testing in parentheses):
+
+
+GLUT (3.7) / freeglut (2.4): required by nearly all examples
+http://freeglut.sourceforge.net/
+
+	The original GLUT (OpenGL Utility Toolkit) is not maintained anymore. 
+	On top of that, GLUT is not 'open': you are not allowed to modify & 
+	redistribute GLUT (unless you happen to be Mark J Kilgard).
+	'freeglut' is a completely open source alternative to the GLUT.
+
+FLTK (1.1.7): required by gaigenhp
+http://www.fltk.org/
+
+ANTLR (2.7.6): required by chap10ex3, chap12ex3
+http://www.antlr.org/
+
+	If you link to libgasandboxparse, you need to link to ANTLR (libantlr), too.
+
+OpenCV (0.9.7 beta5): required by chap10ex3, chap11ex2, chap12ex2, chap14ex4
+http://sourceforge.net/projects/opencvlibrary/
+
+	We use OpenCV for its linear algebra implementation
+	(SVD, eigenvalues, matrix inversion, etc)
+
+Qhull (2003.1): required by chap14ex1
+http://www.qhull.org/
+	
+	Building QHull caused us so much trouble -- both on Unix and Windows --
+	that we decide to include the qhull distribution with this package.
+	It recides in the qhull-2003.1 directory. We hope we do not violate 
+	any rights of the QHull authors by redistributing it. 
+	(The only modifications we made are in the Makefiles and VS projects)
+	(Why QHull? -> OpenCV has only 2D convex hull, we need 3D . . .)
